@@ -1,0 +1,40 @@
+.messageContainer{
+    height: 78svh;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 15px;
+    overflow-y: scroll;
+}
+.messageContainer .sent{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: flex-start;
+    
+}
+.messageContainer .sent h3{
+    width: 49%;
+    background-color:lightblue;
+    border-radius: 3px;
+    padding: 1px;
+    min-height: 30px;
+    font-weight: 100;
+}
+.messageContainer .received{
+    display: flex;
+    width: 100;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 20px;
+    
+
+}
+.messageContainer .received h3{
+    width: 49%;
+    border-radius: 3px;
+    padding: 1px;
+    font-weight: 100;
+    min-height: 30px;
+
+    background-color: springgreen;
+}

@@ -1,0 +1,38 @@
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 92svh;
+    padding: 20px;
+    width: 350px;
+    overflow-y: scroll;
+}
+.contactContainer span{
+    padding: 10px;
+   
+    display: flex;
+    border-bottom: 1px solid rgb(33, 33, 33);
+    align-items: center;
+}
+.contactContainer span input{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    border: none;
+    
+}
+.contactContainer span:first-child{
+    border: none;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.contactContainer span img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    margin-right: 14px;
+}
+.contactContainer span h3{
+    font-size: 19px;
+    font-weight: 100;
+}

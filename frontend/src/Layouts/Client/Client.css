@@ -1,0 +1,16 @@
+.clientContainer{
+    display: flex;
+    background-color: rgb(33, 33, 33);
+    flex-direction: row;
+
+    height: 100vh;
+    overflow-y: hidden;
+    
+
+}
+.clientContainer section{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+}

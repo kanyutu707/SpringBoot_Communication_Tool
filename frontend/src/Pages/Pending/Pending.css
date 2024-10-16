@@ -1,0 +1,6 @@
+.pendingContainer table thead, .pendingContainer table tbody tr{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 10px;
+}
+

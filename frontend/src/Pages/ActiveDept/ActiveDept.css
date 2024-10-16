@@ -1,0 +1,7 @@
+.activeDeptContainer table thead , .activeDeptContainer table tbody tr{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.deptDeactivate button{
+    width:300px
+}

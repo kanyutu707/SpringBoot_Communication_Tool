@@ -1,0 +1,12 @@
+.profileContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+}
+.profileContainer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}

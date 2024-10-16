@@ -1,0 +1,84 @@
+.othersContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    
+}
+.othersContainer section{
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+}
+.othersContainer section header, .othersContainer div header{
+    border-bottom: 1px solid white;
+    font-size: 30px;
+}
+.othersContainer section div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.othersContainer section div span{
+    padding: 12px;
+    background-color: black;
+    border-radius: 2%;
+
+}
+.othersContainer section div span header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding:1%;
+    font-size: 20px;
+
+}
+.othersContainer section div span header img{
+    height: 100%;
+    margin-right: 4%;
+    border-radius: 100%;
+    
+    height: 50px;
+    width: 50px;
+}
+.othersContainer section div span h4{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10px;
+}
+.othersContainer div form{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    padding: 35px;
+    background-color: black;
+    margin-top: 1%;
+}
+.othersContainer div form .input_group{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+}
+.othersContainer div form .input_group input{
+    height: 50px;
+    background-color: rgb(33, 33, 33);
+    border: none;
+    color: white;
+}
+.othersContainer div form .input_group textarea{
+    height: 150px;
+    max-height: 150px;
+    background-color: rgb(33, 33, 33);
+    border: none;
+    color: white;
+    max-width: 100%;
+}
+.othersContainer div form .input_group label{
+    font-size: 25px;
+    font-weight: 100;
+}
+.othersContainer div form button{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin: auto;
+}

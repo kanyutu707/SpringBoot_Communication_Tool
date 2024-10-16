@@ -1,0 +1,10 @@
+.dmContainer{
+    display: flex;
+    padding: 10px;
+
+    margin: 2px;
+}
+.dmContainer section{
+    display: flex;
+    flex-direction: column;
+}

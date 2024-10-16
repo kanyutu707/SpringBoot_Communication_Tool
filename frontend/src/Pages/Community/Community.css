@@ -1,0 +1,60 @@
+.communityContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    padding: 40px;
+    height: 92vh;
+    overflow-y: scroll;
+}
+.communityContainer header{
+    font-size: 35px;
+    font-weight: 500;
+}
+.communityContainer .communities{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 17px;
+}
+.communityContainer .communities .community{
+    display: grid;
+    padding: 4px;
+    border-radius: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 7px;
+    background-color: black;
+}
+.communityContainer .communities .community img{
+    width: 100%;
+    border-radius: 5px;
+}
+.communityContainer .communities .community h3{
+    font-size: 23px;
+    margin: 3px;
+    font-weight: 300;
+}
+.communityContainer .communities .community h6{
+    font-size: 18px;
+    margin: 3px;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+.communityContainer .communities .community button{
+    height: 50px;
+    margin: 10px;
+    color: black;
+    font-size:20px;
+    font-weight: 100;
+    font-family: serif;
+}
+.communityContainer .buttonGroup{
+ display: flex;
+ flex-direction: row;
+
+}
+.communityContainer .buttonGroup button{
+    width: 120px;
+    height: 50px;
+    color: black;
+    margin-right: 40px;
+    cursor: pointer;
+}

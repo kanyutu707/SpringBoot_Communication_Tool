@@ -1,0 +1,126 @@
+.inactiveUserContainer{
+    width: 100%;
+    padding: 30px;
+    height: 100%;
+    overflow-y: scroll;
+}
+.inactiveUserContainer header{
+    font-size: 28px;
+    font-weight: 100;
+    padding: 10px;
+}
+.inactiveUserContainer header svg{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.inactiveUserContainer table{
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.inactiveUserContainer table caption{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 20px;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    padding: 5px;
+    height: 70px;
+    align-items: center;
+}
+.inactiveUserContainer table caption span{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.inactiveUserContainer table caption span svg{
+    width: 25px;
+    height: 25px;
+    
+}
+.inactiveUserContainer table caption span h3{
+    background-color: rgb(40, 40, 40);
+    padding: 4px;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inactiveUserContainer table caption input{
+    align-self: center;
+    justify-self: end;
+    margin-right: 20px;
+    width: 400px;
+    height:50px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+}
+.inactiveUserContainer table thead{
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   grid-gap: 10px;
+    height: 50px;
+    text-align: start;
+    padding: 5px;
+    border-bottom: 2px solid rgb(20, 20, 20);
+    
+}
+.inactiveUserContainer table tbody{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+}
+.inactiveUserContainer table tbody tr{
+    display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   grid-gap: 10px;
+    height:53px;
+    border-bottom: 1px solid rgb(20, 20, 20);
+}
+.inactiveUserContainer table thead th, .inactiveUserContainer table tbody tr td{
+    display: flex;
+    align-items: center;
+    text-align:start;
+}
+.inactiveUserContainer table tbody tr .actionButtons{
+    display: flex;
+    justify-content: flex-start;
+}
+.inactiveUserContainer table tbody tr .actionButtons button{
+    height: 40px;
+    border: none;
+    background-color:blue;
+    padding: 2px;
+    border-radius: 2px;
+    width: 120px;
+}
+
+.massActivate{
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    height: 60px;
+    padding: 4px;
+    align-items: center;
+}
+.massActivate button{
+    background-color:rgb(40, 40, 40);
+    cursor: pointer;
+    height: 45px;
+    border: none;
+    margin-right: 4px;
+    border: 1px solid white;
+    width: 300px;
+    
+}
+.massActivate button:first-child{
+    background-color:transparent;
+    border: 1px solid white;
+}

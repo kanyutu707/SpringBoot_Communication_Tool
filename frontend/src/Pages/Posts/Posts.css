@@ -1,0 +1,93 @@
+.postContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+}
+.postContainer .controls{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(30, 30, 30);
+}
+.postContainer .controls header{
+    font-size: 30px;
+    font-weight: 100;
+}
+.postContainer .controls span{
+    display: flex;
+    font-size: 17px;
+    font-weight: 100;
+    align-items: center;
+    cursor: pointer;
+}
+.postContainer .controls span svg{
+    margin-right:15px;
+    width: 30px;
+    height: 30px;
+}
+.postContainer{
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    height: 92vh;
+}
+.postContainer .message{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    background-color: black;
+    width: 80%;
+    margin: 1% 5%;
+    padding: 10px;
+}
+.postContainer .message .header{
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 10px;
+
+
+    
+}
+
+.postContainer .message .header img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.postContainer .message .controls{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    background-color: rgb(30, 30, 30);
+    margin: 1%;
+    width: 97%;
+}
+.postContainer .message .controls svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.postContainer .message .controls span h3{
+    font-size: 15px;
+    font-weight: 100;
+}
+.postContainer .message .controls span{
+    display: flex;
+    align-items: center;
+
+}
+.postContainer .message .body{
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 100;
+    padding: 1px;
+}
+.postContainer .message .body img{
+    width: 300px;
+    height: 300px;
+}

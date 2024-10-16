@@ -1,0 +1,58 @@
+.adminsidebarcontainer{
+    width: 300px;
+    background-color: black;
+    height: 100svh;
+}
+.adminsidebarcontainer header{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-bottom: 3px solid rgb(33, 33,33);
+}
+.adminsidebarcontainer section{
+    display: flex;
+    flex-direction: column;
+}
+.adminsidebarcontainer section div{
+    display: flex;
+    flex-direction: column;
+}
+.adminsidebarcontainer section div .navigators{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    border-bottom: 2px solid rgb(33, 33,33);
+    padding: 10px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.adminsidebarcontainer section div .navigators h3{
+    font-size: 21px;
+    font-weight: 100;
+}
+.adminsidebarcontainer section div .sub_navigators h4{
+    font-size: 16px;
+    font-weight: 100;
+}
+.adminsidebarcontainer section div .navigators svg{
+    width:22px;
+    height: 22px;
+    margin-right:10px;
+}
+.adminsidebarcontainer section div .sub_navigators{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(33, 33,33);
+    padding: 10px;
+    margin-left: 30px;
+    height: 70px;
+}
+.adminsidebarcontainer section div .sub_navigators svg{
+    width:17px;
+    height: 17px;
+    margin-right: 7px;
+}

@@ -1,0 +1,33 @@
+.aboutContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    padding: 50px 4%;
+}
+.aboutContainer section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    background-color: rgb(30, 30, 30);
+ 
+}
+.aboutContainer header{
+    margin: auto;
+    font-size: 40px;
+    font-weight: 100;
+
+
+}
+.aboutContainer section span{
+    height: 100%;
+    font-size: 23px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-family: serif;
+}
+.aboutContainer section span img{
+    width: 100%;
+    height: 500px;
+}

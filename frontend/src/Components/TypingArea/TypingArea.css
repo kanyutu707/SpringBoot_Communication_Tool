@@ -1,0 +1,25 @@
+.typingarea{
+    background-color: black;
+    width: 100%;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+.typingarea form{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.typingarea form input{
+    background-color: rgb(33, 33, 33);
+    width: 93%;
+    height: 100%;
+    border: none;
+}
+.typingarea form svg{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    background-color: black;
+}

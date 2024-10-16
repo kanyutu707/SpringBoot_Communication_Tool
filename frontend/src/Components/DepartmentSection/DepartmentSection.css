@@ -1,0 +1,46 @@
+.departmentSectionContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 10px;
+}
+.departmentSectionContainer header{
+    font-size: 30px;
+    font-weight: 400;
+}
+.departmentSectionContainer header svg{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.departmentSectionContainer section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.departmentSectionContainer section table{
+    background-color:rgb(30,30, 30);
+    padding: 5px;
+}
+.departmentSectionContainer section table caption{
+    background-color: black;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+.departmentSectionContainer section table thead th{
+    border-bottom: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    height: 50px;
+
+}
+
+.departmentSectionContainer section table tbody tr td{
+    border-bottom: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    height: 40px;
+}
